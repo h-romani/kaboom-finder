@@ -5,7 +5,8 @@ const products = [
         video: "video/ground-effects/strobes-5-pack.mp4",
         image: "images/ground-effects/strobes-5-pack.png",
         duration: "20s",
-        category: "Ground Effects"
+        category: "Ground Effects",
+        price: "$2.99"
     },
 
     {
@@ -14,7 +15,8 @@ const products = [
         video: "video/ground-effects/ground-bloom-6-pack.mp4",
         image: "images/ground-effects/ground-bloom-6-pack.png",
         duration: "20s",
-        category: "Ground Effects"
+        category: "Ground Effects",
+        price: "$3.49"
     },
 
     {
@@ -23,7 +25,8 @@ const products = [
         video: "video/fountains/cone-collection-4-pack.mp4",
         image: "images/fountains/cone-collection-4-pack.png",
         duration: "20s",
-        category: "Fountains"
+        category: "Fountains",
+        price: "$6.79"
     },
 
     {
@@ -32,7 +35,8 @@ const products = [
         video: "video/fountains/dancing-stars.mp4",
         image: "images/fountains/dancing-stars.png",
         duration: "20s",
-        category: "Fountains"
+        category: "Fountains",
+        price: "$6.99"
     },
 
     {
@@ -41,7 +45,8 @@ const products = [
         video: "video/fountains/burning-high-school.mp4",
         image: "images/fountains/burning-high-school.png",
         duration: "20s",
-        category: "Fountains"
+        category: "Fountains",
+        price: "$18.99"
     },
 
     {
@@ -50,7 +55,8 @@ const products = [
         video: "video/fountains/psycho-delic-fountain.mp4",
         image: "images/fountains/psycho-delic-fountain.png",
         duration: "20s",
-        category: "Fountains"
+        category: "Fountains",
+        price: "$22.99"
     },
 
     {
@@ -59,7 +65,8 @@ const products = [
         video: "video/air-bombs/assorted-floral-boom-4-pack.mp4",
         image: "images/air-bombs/assorted-floral-boom-4-pack.png",
         duration: "20s",
-        category: "Air Bombs"
+        category: "Air Bombs",
+        price: "$13.49"
     },
 
     {
@@ -68,7 +75,8 @@ const products = [
         video: "video/air-bombs/bombardo-6-pack.mp4",
         image: "images/air-bombs/bombardo-6-pack.png",
         duration: "20s",
-        category: "Air Bombs"
+        category: "Air Bombs",
+        price: "$6.99"
     },
 
     {
@@ -77,7 +85,8 @@ const products = [
         video: "video/air-bombs/whistling-sonic-boom-6-pack.mp4",
         image: "images/air-bombs/whistling-sonic-boom-6-pack.png",
         duration: "20s",
-        category: "Air Bombs"
+        category: "Air Bombs",
+        price: "$9.99"
     },
 
     {
@@ -86,7 +95,8 @@ const products = [
         video: "video/candles-barrages/fireball-class-4-pack.mp4",
         image: "images/candles-barrages/fireball-class-4-pack.png",
         duration: "20s",
-        category: "Candles-Barrages"
+        category: "Candles-Barrages",
+        price: "$11.99"
     },
 
     {
@@ -95,7 +105,8 @@ const products = [
         video: "video/candles-barrages/meteoroids.mp4",
         image: "images/candles-barrages/meteoroids.png",
         duration: "20s",
-        category: "Candles-Barrages"
+        category: "Candles-Barrages",
+        price: "$8.99"
     },
 
     {
@@ -104,7 +115,8 @@ const products = [
         video: "video/candles-barrages/cannon-barrage-3-pack.mp4",
         image: "images/candles-barrages/cannon-barrage-3-pack.png",
         duration: "20s",
-        category: "Candles-Barrages"
+        category: "Candles-Barrages",
+        price: "$19.99"
     },
 
     {
@@ -113,7 +125,8 @@ const products = [
         video: "video/candles-barrages/crackling-barrage-3-pack.mp4",
         image: "images/candles-barrages/crackling-barrage-3-pack.png",
         duration: "20s",
-        category: "Candles-Barrages"
+        category: "Candles-Barrages",
+        price: "$54.99"
     },
 
     {
@@ -122,7 +135,8 @@ const products = [
         video: "video/multi-shot-cakes/wham-bam.mp4",
         image: "images/multi-shot-cakes/wham-bam.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$8.99"
     },
 
     {
@@ -131,7 +145,8 @@ const products = [
         video: "video/multi-shot-cakes/24-shot-comet.mp4",
         image: "images/multi-shot-cakes/24-shot-comet.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$9.99"
     },
 
     {
@@ -140,7 +155,8 @@ const products = [
         video: "video/multi-shot-cakes/party-animal.mp4",
         image: "images/multi-shot-cakes/party-animal.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$32.99"
     },
 
     {
@@ -149,7 +165,8 @@ const products = [
         video: "video/multi-shot-cakes/saturn-missiles.mp4",
         image: "images/multi-shot-cakes/saturn-missiles.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$42.99"
     },
 
     {
@@ -158,7 +175,8 @@ const products = [
         video: "video/multi-shot-cakes/danger-zone.mp4",
         image: "images/multi-shot-cakes/danger-zone.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$21.99"
     },
 
     {
@@ -167,7 +185,8 @@ const products = [
         video: "video/multi-shot-cakes/beerfest.mp4",
         image: "images/multi-shot-cakes/beerfest.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$59.98"
     },
 
     {
@@ -176,7 +195,8 @@ const products = [
         video: "video/multi-shot-cakes/kaleidoscope.mp4",
         image: "images/multi-shot-cakes/kaleidoscope.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$56.99"
     },
 
     {
@@ -185,7 +205,8 @@ const products = [
         video: "video/multi-shot-cakes/magic-dragons.mp4",
         image: "images/multi-shot-cakes/magic-dragons.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$47.99"
     },
 
     {
@@ -194,7 +215,8 @@ const products = [
         video: "video/multi-shot-cakes/pirate-king.mp4",
         image: "images/multi-shot-cakes/pirate-king.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$56.99"
     },
 
     {
@@ -203,7 +225,8 @@ const products = [
         video: "video/multi-shot-cakes/rock-n-roll.mp4",
         image: "images/multi-shot-cakes/rock-n-roll.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$46.99"
     },
 
     {
@@ -212,7 +235,8 @@ const products = [
         video: "video/multi-shot-cakes/air-strike.mp4",
         image: "images/multi-shot-cakes/air-strike.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$39.99"
     },
 
     {
@@ -221,7 +245,8 @@ const products = [
         video: "video/multi-shot-cakes/bank-heist.mp4",
         image: "images/multi-shot-cakes/bank-heist.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$59.99"
     },
 
     {
@@ -230,7 +255,8 @@ const products = [
         video: "video/multi-shot-cakes/cake-pop-4-pack.mp4",
         image: "images/multi-shot-cakes/cake-pop-4-pack.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$79.99"
     },
 
 
@@ -240,7 +266,8 @@ const products = [
         video: "video/multi-shot-cakes/jackpot.mp4",
         image: "images/multi-shot-cakes/jackpot.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$29.98"
     },
 
     {
@@ -249,7 +276,8 @@ const products = [
         video: "video/multi-shot-cakes/la-grande-finale.mp4",
         image: "images/multi-shot-cakes/la-grande-finale.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$79.99"
     },
 
     {
@@ -258,7 +286,8 @@ const products = [
         video: "video/multi-shot-cakes/strong-free.mp4",
         image: "images/multi-shot-cakes/strong-free.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$79.99"
     },
 
     {
@@ -267,7 +296,8 @@ const products = [
         video: "video/multi-shot-cakes/TwilightZone.mp4",
         image: "images/multi-shot-cakes/TwilightZone.jpg",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$-"
     },
 
     {
@@ -276,7 +306,8 @@ const products = [
         video: "video/multi-shot-cakes/BurstingSatellites.mp4",
         image: "images/multi-shot-cakes/BurstingSatellites.jpg",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$-"
     },
 
     {
@@ -285,7 +316,8 @@ const products = [
         video: "video/multi-shot-cakes/AntAssault.mp4",
         image: "images/multi-shot-cakes/AntAssault.jpg",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$-"
     },
 
     {
@@ -294,7 +326,8 @@ const products = [
         video: "video/multi-shot-cakes/canadian-pride.mp4",
         image: "images/multi-shot-cakes/canadian-pride.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$65.99"
     },
 
     {
@@ -303,7 +336,8 @@ const products = [
         video: "video/multi-shot-cakes/crackling-rain.mp4",
         image: "images/multi-shot-cakes/crackling-rain.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$49.99"
     },
 
     {
@@ -312,7 +346,8 @@ const products = [
         video: "video/multi-shot-cakes/wave-the-flag-eh.mp4",
         image: "images/multi-shot-cakes/wave-the-flag-eh.png",
         duration: "20s",
-        category: "Mult-shot Cakes"
+        category: "Mult-shot Cakes",
+        price: "$39.99"
     },
 
     {
@@ -321,7 +356,8 @@ const products = [
         video: "video/kbx/kick-ass.mp4",
         image: "images/kbx/kick-ass.png",
         duration: "20s",
-        category: "KBX"
+        category: "KBX",
+        price: "$69.99"
     },
 
     {
@@ -330,7 +366,8 @@ const products = [
         video: "video/kbx/awesome.mp4",
         image: "images/kbx/awesome.png",
         duration: "20s",
-        category: "KBX"
+        category: "KBX",
+        price: "$79.99"
     },
 
     {
@@ -339,7 +376,8 @@ const products = [
         video: "video/kbx/epic.mp4",
         image: "images/kbx/epic.png",
         duration: "20s",
-        category: "KBX"
+        category: "KBX",
+        price: "$79.99"
     },
 
     {
@@ -348,7 +386,8 @@ const products = [
         video: "video/kbx/omg.mp4",
         image: "images/kbx/omg.png",
         duration: "20s",
-        category: "KBX"
+        category: "KBX",
+        price: "$59.99"
     },
 
     {
@@ -357,7 +396,8 @@ const products = [
         video: "video/kbx/wow.mp4",
         image: "images/kbx/wow.png",
         duration: "20s",
-        category: "KBX"
+        category: "KBX",
+        price: "$69.99"
     },
 
     {
@@ -366,7 +406,8 @@ const products = [
         video: "video/kit/sample.mp4",
         image: "images/kit/proud-to-be-canadian.png",
         duration: "1 min",
-        category: "Kit"
+        category: "Kit",
+        price: "$279.99"
     },
 
 
