@@ -410,6 +410,77 @@ const products = [
         price: "$279.99"
     },
 
+    {
+        id: "701",
+        title: "Blast off",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/blast-off.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$25.99"
+    },
+
+    {
+        id: "702",
+        title: "Milky Way",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/milky-way.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$24.99"
+    },
+
+    {
+        id: "703",
+        title: "Outer Space",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/outer-space.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$99.99"
+    },
+
+    {
+        id: "704",
+        title: "Rocket Launcher",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/rocket-launcher.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$79.99"
+    },
+
+    {
+        id: "705",
+        title: "Shooting Stars",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/shooting-stars.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$39.99"
+    },
+
+
+    {
+        id: "706",
+        title: "Treasure Chest",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/treasure-chest.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$95.00"
+    },
+
+    {
+        id: "707",
+        title: "UFO Attack",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/ufo-attack.png",
+        duration: "1 min",
+        category: "Kit",
+        price: "$99.99"
+    },
+
 
 
   ];
