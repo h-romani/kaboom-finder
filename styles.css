@@ -54,6 +54,14 @@
     display: block;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
   }
+
+  .card p{
+    font-size: 22px;
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 5%; 
+    color: #0066b3; 
+  }
   
 
   .card-title {

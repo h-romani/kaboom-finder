@@ -67,8 +67,7 @@ function renderFilters(data) {
   
       card.innerHTML = `
       <img src="${item.image}" alt="${item.title}" >
-  
-        <p style="font-size: 22px;font-weight: bold; text-align: center; margin-top: 5px; color: #0066b3">${item.price}</p>
+      <p>${item.price}</p>
     `;
     
   
