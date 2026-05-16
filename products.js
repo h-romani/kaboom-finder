@@ -360,6 +360,15 @@ const products = [
         category: "KBX"
     },
 
+    {
+        id: "700",
+        title: "Wow",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/sample.png",
+        duration: "1 min",
+        category: "Kit"
+    },
+
 
 
   ];
