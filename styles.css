@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #edecec;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  
+  .category-group {
+    width: 100%;
+  }
+  
+  .category-title,
+  .category-group h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #130505;
+    border-left: 4px solid #ff3b3b;
+    padding-left: 10px;
+  }
+  
+  .category-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+
+  .card {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  }
+  
+
+  .card-title {
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal video {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .close:hover {
+    color: #ff3b3b;
+  }
+  
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  
+  .filter-btn:hover {
+    background: #444;
+  }
+  
+  .filter-btn.active {
+    background: #ff3b3b;
+  }
+  
+  @media (max-width: 768px) {
+    .category-items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .modal video {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+  
+    .category-group h2 {
+      font-size: 18px;
+    }
+  
+    .card img {
+      height: 180px;
+    }
+  }
