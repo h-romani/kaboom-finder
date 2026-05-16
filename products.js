@@ -364,7 +364,7 @@ const products = [
         id: "700",
         title: "Wow",
         video: "video/kit/sample.mp4",
-        image: "images/kit/sample.png",
+        image: "images/kit/proud-to-be-canadian.png",
         duration: "1 min",
         category: "Kit"
     },
