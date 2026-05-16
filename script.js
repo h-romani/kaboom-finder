@@ -15,6 +15,14 @@ function closeVideo() {
 }
 
 let activeCategory = "All";
+let searchQuery = "";
+
+document
+  .getElementById("searchInput")
+  .addEventListener("input", (e) => {
+    searchQuery = e.target.value.toLowerCase();
+    renderGallery(products);
+  });
 
 function renderFilters(data) {
     
@@ -41,39 +49,50 @@ function renderFilters(data) {
     });
   }
 
-  function renderGallery(data) {
-    const gallery = document.getElementById("gallery");
-    const title = document.getElementById("categoryTitle");
+function renderGallery(data) {
+  const gallery = document.getElementById("gallery");
+  const title = document.getElementById("categoryTitle");
+
+  gallery.innerHTML = "";
+
+
+  let filtered =
+    activeCategory === "All"
+      ? data
+      : data.filter(item => item.category === activeCategory);
+
   
-    gallery.innerHTML = "";
+  filtered = filtered.filter(item => {
+    const query = searchQuery.toLowerCase();
   
-    const filtered =
-      activeCategory === "All"
-        ? data
-        : data.filter(item => item.category === activeCategory);
-  
-    // 👉 CATEGORY TITLE LOGIC
-    if (activeCategory === "All") {
-      title.innerText = "All Products";
-    } else {
-      title.innerText = activeCategory;
-    }
-  
-    filtered.forEach(item => {
-      const card = document.createElement("div");
-      card.className = "card";
-  
-      card.onclick = () => showVideo(item.video);
-  
-      card.innerHTML = `
-      <img src="${item.image}" alt="${item.title}" >
-      <p>${item.price}</p>
-    `;
-    
-  
-      gallery.appendChild(card);
-    });
+    return (
+      item.title.toLowerCase().includes(query) ||
+      item.price.toLowerCase().includes(query)
+    );
+  }); 
+
+  // 👉 CATEGORY TITLE LOGIC
+  if (activeCategory === "All") {
+    title.innerText = "All Products";
+  } else {
+    title.innerText = activeCategory;
   }
+
+  filtered.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.onclick = () => showVideo(item.video);
+
+    card.innerHTML = `
+    <img src="${item.image}" alt="${item.title}" >
+    <p>${item.price}</p>
+  `;
+  
+
+    gallery.appendChild(card);
+  });
+}
   
   
 renderGallery(products);
