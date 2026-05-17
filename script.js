@@ -1,3 +1,6 @@
+let currentPage = 1;
+const PAGE_SIZE = 25;
+
 function showVideo(item) {
   const modal = document.getElementById('videoModal');
   const videoPlayer = document.getElementById('videoPlayer');
@@ -139,6 +142,8 @@ function renderFilters(data) {
   
       btn.onclick = () => {
         activeCategory = cat;
+        currentPage = 1; 
+        btn.scrollIntoView({ behavior: "smooth", block: "end" });
         renderFilters(data);
         renderGallery(data);
       };
@@ -182,19 +187,40 @@ function renderProducts(data) {
         ? "All Products"
         : activeCategory;
   
-    filtered.forEach(item => {
-      const card = document.createElement("div");
-      card.className = "card";
-  
-      card.onclick = () => showVideo(item);
-  
-      card.innerHTML = `
-        <img src="${item.image}" alt="${item.title} loading="lazy"">
-        <p>${item.price}</p>
-      `;
-  
-      gallery.appendChild(card);
-    });
+        const isAll = activeCategory === "All";
+
+        const start = 0;
+        const end = isAll ? currentPage * PAGE_SIZE : filtered.length;
+        
+        const visibleItems = filtered.slice(start, end);
+        
+        visibleItems.forEach(item => {
+          const card = document.createElement("div");
+          card.className = "card";
+        
+          card.onclick = () => showVideo(item);
+        
+          card.innerHTML = `
+            <img src="${item.image}" alt="${item.title}" loading="lazy">
+            <p>${item.price}</p>
+          `;
+        
+          gallery.appendChild(card);
+        });
+
+        if (isAll && visibleItems.length < filtered.length) {
+
+          const btn = document.createElement("button");
+          btn.innerText = "View More";
+          btn.className = "view-more-btn";
+        
+          btn.onclick = () => {
+            currentPage++;
+            renderProducts(data); // IMPORTANT: only products, not full render
+          };
+        
+          gallery.appendChild(btn);
+        }
 }
 
 function renderCombos() {
@@ -232,7 +258,7 @@ function renderCombos() {
         card.onclick = () => showVideo(item);
   
         card.innerHTML = `
-          <img src="${item.image}" alt="${item.title} loading="lazy"">
+          <img src="${item.image}" alt="${item.title}" loading="lazy">
           <p class="card-title">${item.title}</p>
           <p class="card-price">${item.price}</p>
         `;
