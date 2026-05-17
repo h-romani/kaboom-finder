@@ -7,14 +7,15 @@ const products = [
         duration: "20s",
         category: "Ground Effects",
         price: "$2.99",
-    
         info: [
-            "Fast, intense strobing ground-level flashes with rapid blinking white light bursts",
-            "Pure white strobe effects with high-frequency flicker for strong visual impact",
-            "Very low-height ground effect (no aerial shots), focused on rhythmic flashing sequence",
-            "Typically 10–20 second burn style performance depending on ignition spread",
-            "Commonly used for backyard parties, driveway celebrations, and pre-firework warm-up displays"
-        ]
+            "fast ground-level strobe bursts",
+            "high-frequency white flicker",
+            "intense blinking light pattern",
+            "no aerial lift (ground effect only)",
+            "pure white dominant output",
+            "10–20 sec burn style",
+            "backyard parties, driveway shows, pre-show warmup"
+          ]
     },
     
     {
@@ -25,13 +26,14 @@ const products = [
         duration: "20s",
         category: "Ground Effects",
         price: "$3.49",
-    
         info: [
-            "Soft ground-level bloom effect that opens into flower-like spark patterns",
-            "Golden sparks with occasional red and green tint variations depending on burn cycle",
-            "Smooth, slow-blooming ground effects with steady emission rather than bursts",
-            "Each unit produces a short but visually layered bloom sequence",
-            "Popular for backyard gatherings, family events, and casual celebration openings"
+            "soft blooming spark pattern",
+            "flower-like ground spread",
+            "slow steady burn sequence",
+            "low-height ground effect",
+            "gold base with red/green hints",
+            "layered visual spark expansion",
+            "family gatherings, casual backyard openings"
         ]
     },
     
@@ -45,12 +47,14 @@ const products = [
         price: "$6.79",
     
         info: [
-            "Steady cone fountain performance with continuous upward spark emission",
-            "Gold-heavy sparks with occasional coloured crackle bursts (red, green, silver)",
-            "Medium-height fountain effect with consistent spray pattern",
-            "Each cone runs in a sustained burn sequence rather than discrete shots",
-            "Commonly used for backyard parties, driveway displays, and holiday celebrations"
-        ]
+            "continuous cone spray fountain",
+            "steady upward spark stream",
+            "medium-height ground fountain",
+            "gold-heavy spark output",
+            "red, green, silver crackle accents",
+            "sustained burn (non-shot style)",
+            "backyard parties, driveway celebrations, holidays"
+          ]
     },
 
     {
@@ -63,12 +67,14 @@ const products = [
         price: "$6.99",
     
         info: [
-            "Dynamic fountain effect with star-like sparks that rise and scatter outward",
-            "Multi-colour output including gold, red, green, and blue star bursts",
-            "Moderate height fountain with shimmering, dancing spark motion",
-            "Smooth continuous burn with visually rhythmic sparkle flow",
-            "Popular for birthday parties, backyard celebrations, and evening events"
-        ]
+            "dancing star spark fountain",
+            "multi-colour star bursts",
+            "moderate-height fountain effect",
+            "gold, red, green, blue mix",
+            "smooth continuous burn",
+            "rhythmic sparkle flow",
+            "birthdays, backyard events, evening celebrations"
+          ]
     },
 
     {
@@ -81,12 +87,14 @@ const products = [
         price: "$18.99",
     
         info: [
-            "High-intensity fountain with aggressive spark output and dense emission",
-            "Strong crackling effects combined with multi-colour bursts",
-            "Higher vertical spray compared to standard fountains, creating dramatic presence",
-            "Sustained multi-phase burn with escalating intensity",
-            "Used for larger backyard events, school celebrations, and community gatherings"
-        ]
+            "high-intensity fountain output",
+            "dense spark emission",
+            "strong crackle + colour mix",
+            "higher vertical spray than standard fountains",
+            "multi-phase escalating burn",
+            "red, green, gold bursts",
+            "large backyard events, school shows, community nights"
+          ]
     },
 
     {
@@ -99,12 +107,14 @@ const products = [
         price: "$22.99",
     
         info: [
-            "High-energy fountain with chaotic multi-directional spark patterns",
-            "Psychedelic mix of vibrant colours including neon-style green, purple, red, and gold",
-            "Strong crackle bursts combined with swirling spark motion effect",
-            "One of the most visually intense ground fountain sequences in the category",
-            "Commonly used for major celebrations, night events, and standout backyard shows"
-        ]
+            "chaotic multi-direction spark pattern",
+            "neon-style colour mix effect",
+            "strong crackle bursts",
+            "swirling spark motion",
+            "high visual intensity ground effect",
+            "purple, green, red, gold tones",
+            "major celebrations, night parties, standout backyard displays"
+          ]
     },
 
     {
@@ -467,9 +477,13 @@ const products = [
         category: "KBX",
         price: "$69.99",
         info: [
-            "Aggressive rapid-fire performance with loud crackling breaks and hard-hitting aerial bursts",
-            "Features vibrant red, gold, and mixed-colour effects with a strong finale sequence",
-            "Popular for backyard parties, birthday celebrations, and late-night cottage gatherings"
+            "aggressive rapid-fire bursts",
+            "loud crackling aerial breaks",
+            "strong finale sequence",
+            "mid–high aerial spread",
+            "red, gold, multicolour flashes",
+            "compact multi-shot performance",
+            "backyard parties, birthdays, cottage nights"
           ]
     },
 
@@ -481,14 +495,14 @@ const products = [
         duration: "20s",
         category: "KBX",
         price: "$79.99",
-    
         info: [
-          "Premium performance cake with wide aerial spread",
-          "Layered glittering effects and loud finale-style breaks",
-          "Produces vivid blue, green, red, and gold colour effects",
-          "Multi-shot sequence delivers extended firing duration",
-          "Often used during Canada Day events and large family gatherings"
-        ]
+            "wide aerial spread sequence",
+            "glitter + layered burst effects",
+            "extended multi-shot duration",
+            "blue, green, red, gold palette",
+            "loud finale-style breaks",
+            "Canada Day, large family gatherings"
+          ]
     },
     
     {
@@ -501,12 +515,13 @@ const products = [
         price: "$79.99",
     
         info: [
-          "Heavy aerial performance with dense sky coverage",
-          "Combines crackles, peonies, glitter tails, and finale bursts",
-          "Rich mixed-colour display with bright gold and deep red tones",
-          "Large-volume multi-shot cake built for dramatic finales",
-          "Frequently chosen for outdoor celebrations and special events"
-        ]
+            "dense aerial coverage bursts",
+            "crackle + peony + glitter mix",
+            "large-volume multi-shot design",
+            "gold and deep red dominant tones",
+            "extended dramatic finale sequence",
+            "outdoor celebrations, major events, finale shows"
+          ]
     },
     
     {
@@ -518,13 +533,15 @@ const products = [
         category: "KBX",
         price: "$59.99",
     
-        info: [
-          "Compact but energetic performance with quick aerial pacing",
-          "Features crackling breaks and shimmering sky effects",
-          "Bright mixed-colour bursts with silver and red highlights",
-          "Fast-firing multi-shot cake with strong visual impact",
-          "Popular for smaller backyard celebrations and casual parties"
-        ]
+        info:  [
+            "compact fast aerial pacing",
+            "crackling burst effects",
+            "shimmering sky spark trails",
+            "bright red + silver highlights",
+            "fast multi-shot firing",
+            "high visual impact for size",
+            "small backyard parties, casual celebrations"
+          ]
     },
     
     {
@@ -536,13 +553,15 @@ const products = [
         category: "KBX",
         price: "$69.99",
     
-        info: [
-          "Balanced performance with smooth firing rhythm and strong aerial height",
-          "Includes glittering effects, loud reports, and colourful burst patterns",
-          "Produces vibrant gold, silver, red, and green sky effects",
-          "Multi-shot cake designed for medium-length performances",
-          "Commonly used for holiday gatherings, neighbourhood celebrations, and birthdays"
-        ]
+        info:  [
+            "smooth rhythmic firing",
+            "medium–high aerial lift",
+            "glitter + loud report bursts",
+            "gold, silver, red, green mix",
+            "multi-shot medium duration",
+            "steady visual flow sequence",
+            "holidays, birthdays, neighbourhood events"
+          ]
     },
 
     {
