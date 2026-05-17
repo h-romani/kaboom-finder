@@ -52,7 +52,7 @@ const products = [
             "Commonly used for backyard parties, driveway displays, and holiday celebrations"
         ]
     },
-    
+
     {
         id: "201",
         title: "Dancing Stars",
@@ -70,7 +70,7 @@ const products = [
             "Popular for birthday parties, backyard celebrations, and evening events"
         ]
     },
-    
+
     {
         id: "202",
         title: "Burning High School",
@@ -88,7 +88,7 @@ const products = [
             "Used for larger backyard events, school celebrations, and community gatherings"
         ]
     },
-    
+
     {
         id: "203",
         title: "Psycho-delic Fountain",
@@ -306,7 +306,6 @@ const products = [
         category: "Multi-shot Cakes",
         price: "$79.99"
     },
-
 
     {
         id: "513",
@@ -545,7 +544,6 @@ const products = [
         price: "$39.99"
     },
 
-
     {
         id: "706",
         title: "Treasure Chest",
@@ -565,9 +563,6 @@ const products = [
         category: "Kit",
         price: "$99.99"
     },
-
-
-
   ];
 
   const combos = [
@@ -577,17 +572,18 @@ const products = [
         category: "Combo",
         products: ["100", "102", "200"]
     },
+    
     {
         id: "combo-002",
         title: "Night Show Pack",
         category: "Combo",
         products: ["203", "202", "201"],
-      },
+    },
 
-      {
+    {
         id: "combo-003",
         title: "Ultimate Canadian Birthday",
         category: "Combo",
         products: ["510", "515", "519", "521"],
-        }
+    }
   ];
