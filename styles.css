@@ -16,6 +16,13 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
   }
+
+  .combo-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
   
   .category-group {
     width: 100%;
@@ -181,6 +188,18 @@
   .video-info li {
     margin-bottom: 8px;
     font-size: 14px;
+  }
+
+  .combo-group {
+    width: 100%;
+    display: block;
+  }
+  
+  .combo-group h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    border-left: 4px solid #ff3b3b;
   }
   
   @media (max-width: 768px) {

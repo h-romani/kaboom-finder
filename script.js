@@ -42,8 +42,49 @@ function closeInfo() {
   document.getElementById("infoModal").style.display = "none";
 }
 
+function getComboTotal(productIds) {
+  return productIds
+    .map(id => {
+      const p = products.find(x => x.id === id);
+      return p ? parseFloat(p.price.replace("$", "")) : 0;
+    })
+    .reduce((a, b) => a + b, 0)
+    .toFixed(2);
+}
+
+function renderComboProducts(combo) {
+  const gallery = document.getElementById("gallery");
+  const title = document.getElementById("categoryTitle");
+
+  gallery.innerHTML = "";
+
+  const total = getComboTotal(combo.products);
+
+  title.innerText = `${combo.title} — Total: $${total}`;
+
+  const comboProducts = products.filter(p =>
+    combo.products.includes(p.id)
+  );
+
+  comboProducts.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.onclick = () => showVideo(item);
+
+    card.innerHTML = `
+      <img src="${item.image}" alt="${item.title}">
+      <p class="card-title">${item.title}</p>
+      <p class="card-price">${item.price}</p>
+    `;
+
+    gallery.appendChild(card);
+  });
+}
+
 let activeCategory = "All";
 let searchQuery = "";
+let activeCombo = null;
 
 document
   .getElementById("searchInput")
@@ -56,7 +97,7 @@ function renderFilters(data) {
     
     const filterBar = document.getElementById("filterBar");
   
-    const categories = ["All", ...new Set(data.map(item => item.category))];
+    const categories = ["All", "Combo", ...new Set(data.map(item => item.category))];
   
     filterBar.innerHTML = "";
   
@@ -77,53 +118,107 @@ function renderFilters(data) {
     });
   }
 
-function renderGallery(data) {
-  const gallery = document.getElementById("gallery");
-  const title = document.getElementById("categoryTitle");
-
-  gallery.innerHTML = "";
-
-
-  let filtered =
-    activeCategory === "All"
-      ? data
-      : data.filter(item => item.category === activeCategory);
-
+  function renderProducts(data) {
+    const gallery = document.getElementById("gallery");
+    const comboGallery = document.getElementById("combo-gallery");
+    const title = document.getElementById("categoryTitle");
   
-  filtered = filtered.filter(item => {
-    const query = searchQuery.toLowerCase();
+    gallery.style.display = "grid";
+    comboGallery.style.display = "none";
   
-    return (
-      item.title.toLowerCase().includes(query) ||
-      item.price.toLowerCase().includes(query) || 
-      item.category.toLowerCase().includes(query)
-    );
-  }); 
-
-  // 👉 CATEGORY TITLE LOGIC
-  if (activeCategory === "All") {
-    title.innerText = "All Products";
-  } else {
-    title.innerText = activeCategory;
+    gallery.innerHTML = "";
+  
+    let filtered =
+      activeCategory === "All"
+        ? data
+        : data.filter(item => item.category === activeCategory);
+  
+    filtered = filtered.filter(item => {
+      const q = searchQuery.toLowerCase();
+  
+      return (
+        item.title.toLowerCase().includes(q) ||
+        item.price.toLowerCase().includes(q) ||
+        item.category.toLowerCase().includes(q)
+      );
+    });
+  
+    title.innerText =
+      activeCategory === "All"
+        ? "All Products"
+        : activeCategory;
+  
+    filtered.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+  
+      card.onclick = () => showVideo(item);
+  
+      card.innerHTML = `
+        <img src="${item.image}" alt="${item.title}">
+        <p>${item.price}</p>
+      `;
+  
+      gallery.appendChild(card);
+    });
   }
 
-  filtered.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    card.onclick = () => showVideo(item);
-
-    card.innerHTML = `
-    <img src="${item.image}" alt="${item.title}" >
-    <p>${item.price}</p>
-  `;
-
-
+  function renderCombos() {
+    const gallery = document.getElementById("gallery");
+    const comboGallery = document.getElementById("combo-gallery");
+    const title = document.getElementById("categoryTitle");
   
+    gallery.style.display = "none";
+    comboGallery.style.display = "flex";
+  
+    comboGallery.innerHTML = "";
+    title.innerText = "Combo Packs";
+  
+    combos.forEach(combo => {
+      const total = getComboTotal(combo.products);
+  
+      const group = document.createElement("div");
+      group.className = "combo-group";
+  
+      const heading = document.createElement("h2");
+      heading.innerText = `${combo.title} — $${total}`;
+      group.appendChild(heading);
+  
+      const row = document.createElement("div");
+      row.className = "category-items";
+  
+      const comboProducts = products.filter(p =>
+        combo.products.includes(p.id)
+      );
+  
+      comboProducts.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+  
+        card.onclick = () => showVideo(item);
+  
+        card.innerHTML = `
+          <img src="${item.image}" alt="${item.title}">
+          <p class="card-title">${item.title}</p>
+          <p class="card-price">${item.price}</p>
+        `;
+  
+        row.appendChild(card);
+      });
+  
+      group.appendChild(row);
+      comboGallery.appendChild(group);
+    });
+  }
 
-    gallery.appendChild(card);
-  });
-}
+  function renderGallery(data) {
+    if (activeCategory === "Combo") {
+      renderCombos();
+      return;
+    }
+  
+    renderProducts(data);
+  }
   
   
 renderGallery(products);

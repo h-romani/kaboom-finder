@@ -569,3 +569,25 @@ const products = [
 
 
   ];
+
+  const combos = [
+    {
+        id: "combo-001",
+        title: "Backyard Starter Pack",
+        category: "Combo",
+        products: ["100", "102", "200"]
+    },
+    {
+        id: "combo-002",
+        title: "Night Show Pack",
+        category: "Combo",
+        products: ["203", "202", "201"],
+      },
+
+      {
+        id: "combo-003",
+        title: "Ultimate Canadian Birthday",
+        category: "Combo",
+        products: ["510", "515", "519", "521"],
+        }
+  ];
