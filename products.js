@@ -1,7 +1,7 @@
 const products = [
     {
         id: "100",
-        title: "Strobes 4 Pack",
+        title: "Strobes 5 Pack",
         video: "video/ground-effects/strobes-5-pack.mp4",
         image: "images/ground-effects/strobes-5-pack.png",
         duration: "20s",
