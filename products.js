@@ -179,7 +179,7 @@ const products = [
 
     {
         id: "500",
-        title: "wham bam",
+        title: "Wham Bam",
         video: "video/multi-shot-cakes/wham-bam.mp4",
         image: "images/multi-shot-cakes/wham-bam.png",
         duration: "20s",
@@ -189,7 +189,7 @@ const products = [
 
     {
         id: "501",
-        title: "24 shot comet",
+        title: "24 Shot Comet",
         video: "video/multi-shot-cakes/24-shot-comet.mp4",
         image: "images/multi-shot-cakes/24-shot-comet.png",
         duration: "20s",
@@ -209,7 +209,7 @@ const products = [
 
     {
         id: "503",
-        title: "saturn missiles",
+        title: "Saturn Missiles",
         video: "video/multi-shot-cakes/saturn-missiles.mp4",
         image: "images/multi-shot-cakes/saturn-missiles.png",
         duration: "20s",
@@ -219,7 +219,7 @@ const products = [
 
     {
         id: "504",
-        title: "danger zone",
+        title: "Danger Zone",
         video: "video/multi-shot-cakes/danger-zone.mp4",
         image: "images/multi-shot-cakes/danger-zone.png",
         duration: "20s",
@@ -229,7 +229,7 @@ const products = [
 
     {
         id: "505",
-        title: "beerfest",
+        title: "Beerfest",
         video: "video/multi-shot-cakes/beerfest.mp4",
         image: "images/multi-shot-cakes/beerfest.png",
         duration: "20s",
@@ -239,7 +239,7 @@ const products = [
 
     {
         id: "506",
-        title: "kaleidoscope",
+        title: "Kaleidoscope",
         video: "video/multi-shot-cakes/kaleidoscope.mp4",
         image: "images/multi-shot-cakes/kaleidoscope.png",
         duration: "20s",
@@ -259,7 +259,7 @@ const products = [
 
     {
         id: "508",
-        title: "pirate king",
+        title: "Pirate King",
         video: "video/multi-shot-cakes/pirate-king.mp4",
         image: "images/multi-shot-cakes/pirate-king.png",
         duration: "20s",
