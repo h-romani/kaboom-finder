@@ -1,5 +1,5 @@
 let currentPage = 1;
-const PAGE_SIZE = 25;
+const PAGE_SIZE = 10;
 
 function showVideo(item) {
   const modal = document.getElementById('videoModal');
