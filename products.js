@@ -563,6 +563,76 @@ const products = [
         category: "Kit",
         price: "$99.99"
     },
+
+    {
+        id: "708",
+        title: "Meteor Shower",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/meteor-shower.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$69.99"
+    },
+
+    {
+        id: "709",
+        title: "Air Raid",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/air-raid.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$139.99"
+    },
+
+    {
+        id: "710",
+        title: "Thunder & Lightning",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/thunder-lightning.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$169.99"
+    },
+
+    {
+        id: "711",
+        title: "Missile Tower",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/missile-tower.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$199.99"
+    },
+
+    {
+        id: "712",
+        title: "Missile Launch",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/missile-launch.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$299.99"
+    },
+
+    {
+        id: "713",
+        title: "Missile Attack",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/missile-attack.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$529.99"
+    },
+
+    {
+        id: "714",
+        title: "KBX Experience",
+        video: "video/kit/sample.mp4",
+        image: "images/kit/kbx-experience.webp",
+        duration: "1 min",
+        category: "Kit",
+        price: "$349.99"
+    },
   ];
 
   const combos = [
@@ -572,7 +642,7 @@ const products = [
         category: "Combo",
         products: ["100", "102", "200"]
     },
-    
+
     {
         id: "combo-002",
         title: "Night Show Pack",
