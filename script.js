@@ -95,7 +95,8 @@ function renderGallery(data) {
   
     return (
       item.title.toLowerCase().includes(query) ||
-      item.price.toLowerCase().includes(query)
+      item.price.toLowerCase().includes(query) || 
+      item.category.toLowerCase().includes(query)
     );
   }); 
 

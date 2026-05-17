@@ -6,9 +6,17 @@ const products = [
         image: "images/ground-effects/strobes-5-pack.png",
         duration: "20s",
         category: "Ground Effects",
-        price: "$2.99"
+        price: "$2.99",
+    
+        info: [
+            "Fast, intense strobing ground-level flashes with rapid blinking white light bursts",
+            "Pure white strobe effects with high-frequency flicker for strong visual impact",
+            "Very low-height ground effect (no aerial shots), focused on rhythmic flashing sequence",
+            "Typically 10–20 second burn style performance depending on ignition spread",
+            "Commonly used for backyard parties, driveway celebrations, and pre-firework warm-up displays"
+        ]
     },
-
+    
     {
         id: "102",
         title: "Ground Bloom 6 Pack",
@@ -16,9 +24,17 @@ const products = [
         image: "images/ground-effects/ground-bloom-6-pack.png",
         duration: "20s",
         category: "Ground Effects",
-        price: "$3.49"
+        price: "$3.49",
+    
+        info: [
+            "Soft ground-level bloom effect that opens into flower-like spark patterns",
+            "Golden sparks with occasional red and green tint variations depending on burn cycle",
+            "Smooth, slow-blooming ground effects with steady emission rather than bursts",
+            "Each unit produces a short but visually layered bloom sequence",
+            "Popular for backyard gatherings, family events, and casual celebration openings"
+        ]
     },
-
+    
     {
         id: "200",
         title: "Cone Collection 4 Pack",
@@ -26,9 +42,17 @@ const products = [
         image: "images/fountains/cone-collection-4-pack.png",
         duration: "20s",
         category: "Fountains",
-        price: "$6.79"
+        price: "$6.79",
+    
+        info: [
+            "Steady cone fountain performance with continuous upward spark emission",
+            "Gold-heavy sparks with occasional coloured crackle bursts (red, green, silver)",
+            "Medium-height fountain effect with consistent spray pattern",
+            "Each cone runs in a sustained burn sequence rather than discrete shots",
+            "Commonly used for backyard parties, driveway displays, and holiday celebrations"
+        ]
     },
-
+    
     {
         id: "201",
         title: "Dancing Stars",
@@ -36,9 +60,17 @@ const products = [
         image: "images/fountains/dancing-stars.png",
         duration: "20s",
         category: "Fountains",
-        price: "$6.99"
+        price: "$6.99",
+    
+        info: [
+            "Dynamic fountain effect with star-like sparks that rise and scatter outward",
+            "Multi-colour output including gold, red, green, and blue star bursts",
+            "Moderate height fountain with shimmering, dancing spark motion",
+            "Smooth continuous burn with visually rhythmic sparkle flow",
+            "Popular for birthday parties, backyard celebrations, and evening events"
+        ]
     },
-
+    
     {
         id: "202",
         title: "Burning High School",
@@ -46,9 +78,17 @@ const products = [
         image: "images/fountains/burning-high-school.png",
         duration: "20s",
         category: "Fountains",
-        price: "$18.99"
+        price: "$18.99",
+    
+        info: [
+            "High-intensity fountain with aggressive spark output and dense emission",
+            "Strong crackling effects combined with multi-colour bursts",
+            "Higher vertical spray compared to standard fountains, creating dramatic presence",
+            "Sustained multi-phase burn with escalating intensity",
+            "Used for larger backyard events, school celebrations, and community gatherings"
+        ]
     },
-
+    
     {
         id: "203",
         title: "Psycho-delic Fountain",
@@ -56,7 +96,15 @@ const products = [
         image: "images/fountains/psycho-delic-fountain.png",
         duration: "20s",
         category: "Fountains",
-        price: "$22.99"
+        price: "$22.99",
+    
+        info: [
+            "High-energy fountain with chaotic multi-directional spark patterns",
+            "Psychedelic mix of vibrant colours including neon-style green, purple, red, and gold",
+            "Strong crackle bursts combined with swirling spark motion effect",
+            "One of the most visually intense ground fountain sequences in the category",
+            "Commonly used for major celebrations, night events, and standout backyard shows"
+        ]
     },
 
     {
@@ -135,7 +183,7 @@ const products = [
         video: "video/multi-shot-cakes/wham-bam.mp4",
         image: "images/multi-shot-cakes/wham-bam.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$8.99"
     },
 
@@ -145,7 +193,7 @@ const products = [
         video: "video/multi-shot-cakes/24-shot-comet.mp4",
         image: "images/multi-shot-cakes/24-shot-comet.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$9.99"
     },
 
@@ -155,7 +203,7 @@ const products = [
         video: "video/multi-shot-cakes/party-animal.mp4",
         image: "images/multi-shot-cakes/party-animal.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$32.99"
     },
 
@@ -165,7 +213,7 @@ const products = [
         video: "video/multi-shot-cakes/saturn-missiles.mp4",
         image: "images/multi-shot-cakes/saturn-missiles.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$42.99"
     },
 
@@ -175,7 +223,7 @@ const products = [
         video: "video/multi-shot-cakes/danger-zone.mp4",
         image: "images/multi-shot-cakes/danger-zone.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$21.99"
     },
 
@@ -185,7 +233,7 @@ const products = [
         video: "video/multi-shot-cakes/beerfest.mp4",
         image: "images/multi-shot-cakes/beerfest.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$59.98"
     },
 
@@ -195,7 +243,7 @@ const products = [
         video: "video/multi-shot-cakes/kaleidoscope.mp4",
         image: "images/multi-shot-cakes/kaleidoscope.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$56.99"
     },
 
@@ -205,7 +253,7 @@ const products = [
         video: "video/multi-shot-cakes/magic-dragons.mp4",
         image: "images/multi-shot-cakes/magic-dragons.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$47.99"
     },
 
@@ -215,7 +263,7 @@ const products = [
         video: "video/multi-shot-cakes/pirate-king.mp4",
         image: "images/multi-shot-cakes/pirate-king.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$56.99"
     },
 
@@ -225,7 +273,7 @@ const products = [
         video: "video/multi-shot-cakes/rock-n-roll.mp4",
         image: "images/multi-shot-cakes/rock-n-roll.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$46.99"
     },
 
@@ -235,7 +283,7 @@ const products = [
         video: "video/multi-shot-cakes/air-strike.mp4",
         image: "images/multi-shot-cakes/air-strike.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$39.99"
     },
 
@@ -245,7 +293,7 @@ const products = [
         video: "video/multi-shot-cakes/bank-heist.mp4",
         image: "images/multi-shot-cakes/bank-heist.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$59.99"
     },
 
@@ -255,7 +303,7 @@ const products = [
         video: "video/multi-shot-cakes/cake-pop-4-pack.mp4",
         image: "images/multi-shot-cakes/cake-pop-4-pack.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$79.99"
     },
 
@@ -266,7 +314,7 @@ const products = [
         video: "video/multi-shot-cakes/jackpot.mp4",
         image: "images/multi-shot-cakes/jackpot.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$29.98"
     },
 
@@ -276,7 +324,7 @@ const products = [
         video: "video/multi-shot-cakes/la-grande-finale.mp4",
         image: "images/multi-shot-cakes/la-grande-finale.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$79.99"
     },
 
@@ -286,7 +334,7 @@ const products = [
         video: "video/multi-shot-cakes/strong-free.mp4",
         image: "images/multi-shot-cakes/strong-free.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$79.99"
     },
 
@@ -296,7 +344,7 @@ const products = [
         video: "video/multi-shot-cakes/TwilightZone.mp4",
         image: "images/multi-shot-cakes/TwilightZone.jpg",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$-"
     },
 
@@ -306,7 +354,7 @@ const products = [
         video: "video/multi-shot-cakes/BurstingSatellites.mp4",
         image: "images/multi-shot-cakes/BurstingSatellites.jpg",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$-"
     },
 
@@ -316,7 +364,7 @@ const products = [
         video: "video/multi-shot-cakes/AntAssault.mp4",
         image: "images/multi-shot-cakes/AntAssault.jpg",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$-"
     },
 
@@ -326,7 +374,7 @@ const products = [
         video: "video/multi-shot-cakes/canadian-pride.mp4",
         image: "images/multi-shot-cakes/canadian-pride.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$65.99"
     },
 
@@ -336,7 +384,7 @@ const products = [
         video: "video/multi-shot-cakes/crackling-rain.mp4",
         image: "images/multi-shot-cakes/crackling-rain.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$49.99"
     },
 
@@ -346,7 +394,7 @@ const products = [
         video: "video/multi-shot-cakes/wave-the-flag-eh.mp4",
         image: "images/multi-shot-cakes/wave-the-flag-eh.png",
         duration: "20s",
-        category: "Mult-shot Cakes",
+        category: "Multi-shot Cakes",
         price: "$39.99"
     },
 
