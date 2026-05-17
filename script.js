@@ -7,16 +7,15 @@ function showVideo(item) {
 
   const list = document.getElementById("infoList");
 
-  // ALWAYS RENDER INFO (same position)
+  // info render in the same position always
+
   if (item.info && item.info.length) {
     list.innerHTML = item.info.map(i => `<li>${i}</li>`).join("");
   } else {
     list.innerHTML = "";
   }
 
-  // =========================
-  // MEDIA LOGIC ONLY (TOP AREA)
-  // =========================
+  // media logic below: youtube or internal mp4 video
 
   if (item.youtube) {
 
@@ -146,9 +145,9 @@ function renderFilters(data) {
   
       filterBar.appendChild(btn);
     });
-  }
+}
 
-  function renderProducts(data) {
+function renderProducts(data) {
     const gallery = document.getElementById("gallery");
     const comboGallery = document.getElementById("combo-gallery");
     const title = document.getElementById("categoryTitle");
@@ -191,9 +190,9 @@ function renderFilters(data) {
   
       gallery.appendChild(card);
     });
-  }
+}
 
-  function renderCombos() {
+function renderCombos() {
     const gallery = document.getElementById("gallery");
     const comboGallery = document.getElementById("combo-gallery");
     const title = document.getElementById("categoryTitle");
@@ -239,16 +238,16 @@ function renderFilters(data) {
       group.appendChild(row);
       comboGallery.appendChild(group);
     });
-  }
+}
 
-  function renderGallery(data) {
+function renderGallery(data) {
     if (activeCategory === "Combo") {
       renderCombos();
       return;
     }
   
     renderProducts(data);
-  }
+}
   
   
 renderGallery(products);
