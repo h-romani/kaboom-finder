@@ -114,7 +114,15 @@ const products = [
         image: "images/air-bombs/assorted-floral-boom-4-pack.png",
         duration: "20s",
         category: "Air Bombs",
-        price: "$13.49"
+        price: "$13.49", 
+        info: [
+            "assorted floral effect shells",
+            "multi-colour floral bursts",
+            "mid–high aerial (~30–60m)",
+            "red, green, blue, gold mix",
+            "small shell pack variety",
+            "small neighbour-friendly backyard shows"
+          ]
     },
 
     {
@@ -124,7 +132,15 @@ const products = [
         image: "images/air-bombs/bombardo-6-pack.png",
         duration: "20s",
         category: "Air Bombs",
-        price: "$6.99"
+        price: "$6.99", 
+        info: [
+            "whistling lift + pop effect",
+            "air bomb mini report bursts",
+            "inconsistent whistle-to-bang style",
+            "low–mid aerial (~15–30m)",
+            "6-shot small pack",
+            "casual effects and noise"
+        ]
     },
 
     {
@@ -134,7 +150,16 @@ const products = [
         image: "images/air-bombs/whistling-sonic-boom-6-pack.png",
         duration: "20s",
         category: "Air Bombs",
-        price: "$9.99"
+        price: "$9.99", 
+        info: [
+            "loud whistling ascent",
+            "sharp sonic crack breaks",
+            "rapid mini aerial bursts",
+            "mid aerial (~20–40m)",
+            "white flash + silver sparks",
+            "6-shot whistle-based sequence",
+            "quick backyard shows"
+          ]
     },
 
     {
@@ -144,7 +169,16 @@ const products = [
         image: "images/candles-barrages/fireball-class-4-pack.png",
         duration: "20s",
         category: "Candles-Barrages",
-        price: "$11.99"
+        price: "$11.99", 
+        info: [
+            "aerial shell-style bursts",
+            "loud break + flash impact",
+            "multi-colour peony explosions",
+            "high aerial (~30–70m)",
+            "red, green, gold mix",
+            "4 individual heavy shots",
+            "Canada Day, large backyard parties and finales"
+          ]
     },
 
     {
@@ -154,7 +188,16 @@ const products = [
         image: "images/candles-barrages/meteoroids.png",
         duration: "20s",
         category: "Candles-Barrages",
-        price: "$8.99"
+        price: "$8.99", 
+        info: [
+            "fast comet scatter effect",
+            "meteor-style sky streaks",
+            "silver + colour glitter trails",
+            "mid aerial (~20–50m)",
+            "gold, blue, green flickers",
+            "rapid mini barrage shots",
+            "backyard shows, mid-sequence of shot fillers, Canada Day"
+          ]
     },
 
     {
@@ -164,7 +207,16 @@ const products = [
         image: "images/candles-barrages/cannon-barrage-3-pack.png",
         duration: "20s",
         category: "Candles-Barrages",
-        price: "$19.99"
+        price: "$19.99", 
+        info: [
+            "mini barrage cannon bursts",
+            "crackling star explosions",
+            "quick rhythmic firing",
+            "low–mid aerial (~15–35m)",
+            "purple, green, red stars",
+            "3 compact barrage units",
+            "small parties, backyard celebrations, casual holidays"
+          ]
     },
 
     {
@@ -174,7 +226,16 @@ const products = [
         image: "images/candles-barrages/crackling-barrage-3-pack.png",
         duration: "20s",
         category: "Candles-Barrages",
-        price: "$54.99"
+        price: "$54.99", 
+        info:  [
+            "dense crackle-heavy bursts",
+            "rapid sky crackling effect",
+            "bright flash + spark rain",
+            "mid aerial (~20–45m)",
+            "white, gold, silver tones",
+            "3 barrage cakes",
+            "Canada Day, backyard night shows, filler between the bigger multi-shot cakes"
+          ]
     },
 
     {
