@@ -255,7 +255,15 @@ const products = [
         image: "images/multi-shot-cakes/wham-bam.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$8.99"
+        price: "$8.99", 
+        info: [
+            "fast punchy multi-shot bursts",
+            "crackle + flash combo breaks",
+            "bright red, gold, green pops",
+            "quick aerial pacing (~20s show)",
+            "compact barrage style",
+            "backyard parties, casual celebrations"
+          ]
     },
 
     {
@@ -265,7 +273,15 @@ const products = [
         image: "images/multi-shot-cakes/24-shot-comet.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$9.99"
+        price: "$9.99", 
+        info: [
+            "steady comet-style firing",
+            "silver tail streak effects",
+            "smooth rhythmic 24-shot sequence",
+            "mid aerial spread",
+            "gold, silver, red highlights",
+            "backyard shows, starter cake"
+          ]
     },
 
     {
@@ -275,7 +291,15 @@ const products = [
         image: "images/multi-shot-cakes/party-animal.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$32.99"
+        price: "$32.99", 
+        info: [
+            "high-energy rapid barrage",
+            "chaotic multi-effect bursts",
+            "crackle + strobe + peony mix",
+            "mid–high aerial coverage",
+            "vibrant multicolour palette",
+            "birthday parties, big backyard events"
+          ]
     },
 
     {
@@ -285,7 +309,15 @@ const products = [
         image: "images/multi-shot-cakes/saturn-missiles.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$42.99"
+        price: "$42.99", 
+        info: [
+            "whistling missile-style launches",
+            "fast vertical ascent shots",
+            "silver comet trails",
+            "mid aerial height",
+            "red, green, gold flashes",
+            "outdoor parties, Canada Day shows"
+          ]
     },
 
     {
@@ -295,7 +327,15 @@ const products = [
         image: "images/multi-shot-cakes/danger-zone.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$21.99"
+        price: "$21.99", 
+        info: [
+            "aggressive rapid-fire sequence",
+            "loud crackle burst effects",
+            "strobe + flash-heavy output",
+            "mid–high aerial impact",
+            "red, gold, white mix",
+            "late-night backyard shows, finales"
+        ]
     },
 
     {
@@ -305,7 +345,15 @@ const products = [
         image: "images/multi-shot-cakes/beerfest.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$59.98"
+        price: "$59.98", 
+        info: [
+            "extended premium multi-shot cake",
+            "layered colour + crackle effects",
+            "wide aerial spread",
+            "gold, green, red, blue palette",
+            "strong finale-style ending",
+            "large gatherings, festival-style shows"
+          ]
     },
 
     {
@@ -315,7 +363,15 @@ const products = [
         image: "images/multi-shot-cakes/kaleidoscope.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$56.99"
+        price: "$56.99", 
+        info: [
+            "colour-shifting visual bursts",
+            "smooth patterned firing rhythm",
+            "multi-layered glitter + peony effects",
+            "mid–high aerial display",
+            "rich multicolour spectrum",
+            "Canada Day, large backyard shows"
+          ]
     },
 
     {
@@ -325,7 +381,16 @@ const products = [
         image: "images/multi-shot-cakes/magic-dragons.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$47.99"
+        price: "$47.99", 
+        info: [
+            "themed dragon-style aerial bursts",
+            "glitter + comet tail effects",
+            "dynamic rising shot patterns",
+            "mid aerial height",
+            "red, gold, green dominant tones",
+            "themed parties, backyard shows"
+          ]
+
     },
 
     {
@@ -335,7 +400,16 @@ const products = [
         image: "images/multi-shot-cakes/pirate-king.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$56.99"
+        price: "$56.99", 
+        info: [
+            "bold dramatic firing sequence",
+            "cannon-style crackle bursts",
+            "heavy glitter + gold effects",
+            "high-impact aerial spread",
+            "gold, red, silver palette",
+            "big backyard shows, finales"
+          ]
+        
     },
 
     {
@@ -345,7 +419,15 @@ const products = [
         image: "images/multi-shot-cakes/rock-n-roll.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$46.99"
+        price: "$46.99", 
+        info: [
+            "rhythmic fast-paced firing",
+            "strobe + crackle beat-style bursts",
+            "energetic multi-shot cadence",
+            "mid aerial coverage",
+            "red, white, blue, gold mix",
+            "parties, nighttime backyard events"
+          ]
     },
 
     {
@@ -355,7 +437,15 @@ const products = [
         image: "images/multi-shot-cakes/air-strike.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$39.99"
+        price: "$39.99", 
+        info:  [
+            "military-style rapid barrage",
+            "whistle + crackle aerial bursts",
+            "intense timed firing sequence",
+            "mid–high aerial impact",
+            "green, red, gold flashes",
+            "large backyard shows, Canada Day"
+          ]
     },
 
     {
@@ -365,7 +455,15 @@ const products = [
         image: "images/multi-shot-cakes/bank-heist.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$59.99"
+        price: "$59.99", 
+        info: [
+            "high-energy chaotic bursts",
+            "rapid crackle + flash sequences",
+            "strong finale escalation",
+            "mid–high aerial spread",
+            "gold, red, green mix",
+            "big parties, dramatic backyard shows"
+          ]
     },
 
     {
@@ -375,7 +473,15 @@ const products = [
         image: "images/multi-shot-cakes/cake-pop-4-pack.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$79.99"
+        price: "$79.99", 
+        info: [
+            "assorted mini multi-shot cakes",
+            "varied quick burst effects",
+            "compact aerial patterns",
+            "low–mid aerial height",
+            "mixed colour selection",
+            "starter set, backyard celebrations"
+          ]
     },
 
     {
@@ -385,7 +491,15 @@ const products = [
         image: "images/multi-shot-cakes/jackpot.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$29.98"
+        price: "$29.98", 
+        info:  [
+            "lucky-style rapid burst sequence",
+            "gold-heavy glitter effects",
+            "crackle + peony mix",
+            "mid aerial spread",
+            "red, gold, green highlights",
+            "parties, casual celebrations"
+          ]
     },
 
     {
@@ -395,7 +509,15 @@ const products = [
         image: "images/multi-shot-cakes/la-grande-finale.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$79.99"
+        price: "$79.99", 
+        info: [
+            "large-scale finale performance cake",
+            "layered multi-shot escalation",
+            "heavy crackle + glitter bursts",
+            "high aerial coverage",
+            "gold, red, multicolour mix",
+            "Canada Day, big finale shows"
+          ]
     },
 
     {
@@ -405,7 +527,15 @@ const products = [
         image: "images/multi-shot-cakes/strong-free.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$79.99"
+        price: "$79.99", 
+        info: [
+            "Canadian-themed multi-shot display",
+            "bold red + white dominant effects",
+            "steady escalating firing pattern",
+            "mid–high aerial spread",
+            "gold, red, silver accents",
+            "Canada Day, national celebrations"
+          ]
     },
 
     {
@@ -415,7 +545,15 @@ const products = [
         image: "images/multi-shot-cakes/TwilightZone.jpg",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$-"
+        price: "$-", 
+        info: [
+            "dark themed atmospheric bursts",
+            "strobe + eerie glitter effects",
+            "slow-to-fast firing variation",
+            "mid aerial height",
+            "purple, blue, white tones",
+            "night shows, themed backyard events"
+          ]
     },
 
     {
@@ -425,7 +563,15 @@ const products = [
         image: "images/multi-shot-cakes/BurstingSatellites.jpg",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$-"
+        price: "$-", 
+        info: [
+            "radial sky burst patterns",
+            "satellite-style star explosions",
+            "crackle + comet combinations",
+            "mid–high aerial spread",
+            "silver, gold, red flashes",
+            "backyard shows, night celebrations"
+          ]
     },
 
     {
@@ -435,7 +581,15 @@ const products = [
         image: "images/multi-shot-cakes/AntAssault.jpg",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$-"
+        price: "$-", 
+        info: [
+            "fast low-to-mid barrage bursts",
+            "rapid crackling swarm effect",
+            "dense multi-shot firing",
+            "mid aerial height",
+            "green, red, gold mix",
+            "backyard parties, filler cake"
+          ]
     },
 
     {
@@ -445,7 +599,15 @@ const products = [
         image: "images/multi-shot-cakes/canadian-pride.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$65.99"
+        price: "$65.99", 
+        info:  [
+            "flag-themed aerial performance",
+            "red and white dominant bursts",
+            "steady multi-shot rhythm",
+            "mid–high aerial spread",
+            "gold accents with maple tones",
+            "Canada Day, other national holiday events"
+          ]
     },
 
     {
@@ -455,7 +617,15 @@ const products = [
         image: "images/multi-shot-cakes/crackling-rain.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$49.99"
+        price: "$49.99", 
+        info: [
+            "continuous crackle shower effect",
+            "dense sparkling sky rain",
+            "steady multi-shot output",
+            "mid aerial coverage",
+            "white, gold, silver tones",
+            "backyard nights, filler display"
+          ]
     },
 
     {
@@ -465,7 +635,15 @@ const products = [
         image: "images/multi-shot-cakes/wave-the-flag-eh.png",
         duration: "20s",
         category: "Multi-shot Cakes",
-        price: "$39.99"
+        price: "$39.99", 
+        info: [
+            "Canadian-themed rhythmic bursts",
+            "flag-inspired red/white effects",
+            "smooth firing wave pattern",
+            "mid aerial spread",
+            "gold + silver accents",
+            "Canada Day, backyard celebrations"
+          ]
     },
 
     {
