@@ -73,7 +73,7 @@ function renderComboProducts(combo) {
     card.onclick = () => showVideo(item);
 
     card.innerHTML = `
-      <img src="${item.image}" alt="${item.title}">
+      <img src="${item.image}" alt="${item.title} loading="lazy"">
       <p class="card-title">${item.title}</p>
       <p class="card-price">${item.price}</p>
     `;
@@ -155,7 +155,7 @@ function renderFilters(data) {
       card.onclick = () => showVideo(item);
   
       card.innerHTML = `
-        <img src="${item.image}" alt="${item.title}">
+        <img src="${item.image}" alt="${item.title} loading="lazy"">
         <p>${item.price}</p>
       `;
   
@@ -198,7 +198,7 @@ function renderFilters(data) {
         card.onclick = () => showVideo(item);
   
         card.innerHTML = `
-          <img src="${item.image}" alt="${item.title}">
+          <img src="${item.image}" alt="${item.title} loading="lazy"">
           <p class="card-title">${item.title}</p>
           <p class="card-price">${item.price}</p>
         `;
