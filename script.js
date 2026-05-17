@@ -162,15 +162,20 @@ function renderProducts(data) {
         ? data
         : data.filter(item => item.category === activeCategory);
   
-    filtered = filtered.filter(item => {
-      const q = searchQuery.toLowerCase();
-  
-      return (
-        item.title.toLowerCase().includes(q) ||
-        item.price.toLowerCase().includes(q) ||
-        item.category.toLowerCase().includes(q)
-      );
-    });
+        filtered = filtered.filter(item => {
+          const qWords = searchQuery.toLowerCase().split(" ").filter(Boolean);
+        
+          const text = [
+            item.title,
+            item.price,
+            item.category,
+            ...(item.info || [])
+          ]
+            .join(" ")
+            .toLowerCase();
+        
+          return qWords.every(word => text.includes(word));
+        });
   
     title.innerText =
       activeCategory === "All"

@@ -501,7 +501,8 @@ const products = [
             "crackling star effects",
             "gold + strobe accents",
             "multi-colour palette (red, green, gold, blue)",
-            "20–30+ shots (varies)",
+            "20–30+ shots per item inside (varies)",
+            "148 shots total", 
             "layered vertical lifts",
             "rhythmic firing pattern",
             "Canada Day, Victoria Night parties, cottage nights"
@@ -520,8 +521,9 @@ const products = [
         info: [
             "quick-fire bursts",
             "silver comet trails",
-            "glitter + crackle pops",
+            "glitter bursting designs - low pop frequency",
             "low–mid aerial reach (~10–30m)",
+            "53 shots", 
             "silver, white tones",
             "small shot / tube-style bursts",
             "backyard shows, usually an opener firework to a combination of other kits"
@@ -543,6 +545,7 @@ const products = [
             "glitter + comet tails",
             "mid aerial height (~20–40m)",
             "blue, green, silver mix",
+            "62 shots", 
             "medium shot count cake",
             "perfect for a quick and loud firework night"
           ]
@@ -563,6 +566,7 @@ const products = [
             "mid–high aerial (~30–50m)",
             "gold, red, multicolour",
             "higher shot count cake",
+            "290 shots", 
             "cottage shows, finale firework"
         ]
     },
@@ -582,6 +586,7 @@ const products = [
             "high vertical reach (~40–80m)",
             "red, green, gold flashes",
             "single / multi rocket pack style",
+            "223 shots", 
             "cottage skies,  similar to loud rocket-launching sounds, finale opener"
           ]
     },
@@ -601,6 +606,7 @@ const products = [
             "mid aerial height (~20–50m)",
             "blue, silver, multicolour shimmer",
             "small shot count / fountain-cake hybrid",
+            "79 shots", 
             "backyard shows, family fireworks nights"
           ]
     },
@@ -621,6 +627,8 @@ const products = [
             "mid–high aerial (~30–60m)",
             "gold, red, green, strobe mix",
             "higher shot count variety pack style",
+            "285 shots", 
+            "most bang for the buck relative to shots and items", 
             "big backyard displays, the finales of the fireworks"
           ]
     },
@@ -641,6 +649,7 @@ const products = [
             "mid–high aerial (~30–55m)",
             "green, white, red flashes",
             "multi-shot rapid sequence",
+            "97 shots", 
             "night shows, themed parties, finale segment"
           ]
     },
@@ -660,6 +669,7 @@ const products = [
             "mid aerial height (~20–45m)",
             "gold, red, green flickers",
             "dense sky-filling pattern",
+            "186 shots", 
             "Canada Day, backyard shows, mid-display fillers of the fireworks shows"
           ]
     },
@@ -679,6 +689,8 @@ const products = [
             "mid–high aerial (~30–55m)",
             "red, green, white flashes",
             "high intensity shot clusters",
+            "306 shots", 
+            "second place for the most shots in a single kit", 
             "large backyard shows, party finale segment"
         ]
     },
@@ -698,6 +710,8 @@ const products = [
             "mid–high aerial (~30–60m)",
             "gold, white dominant palette",
             "punchy timed firing rhythm",
+            "342 shots", 
+            "first place for the most shots in a single kit", 
             "Nighttime finale shows"
           ]
     },
@@ -716,7 +730,9 @@ const products = [
             "silver comet tails",
             "mid aerial (~25–45m)",
             "red, green, gold pops",
-            "stacked rapid-fire tubes",
+            "stacked rapid-fire tubes",            
+            "starter stack of multi-shot cakes", 
+            "99 shots", 
             "backyard displays, opener or mid-show impact piece"
         ]
     },
@@ -736,6 +752,8 @@ const products = [
             "mid aerial (~25–40m)",
             "red, green, white flashes",
             "compact shot sequence (~20–30 shots typical)",
+            "intermediate stack of multi-shot cakes", 
+            "142 shots", 
             "Small–mid backyard shows and warm-up item"
           ]
     },
@@ -755,6 +773,10 @@ const products = [
             "mid–high aerial (~30–60m)",
             "gold, red, green, silver mix",
             "dense comet + peony layering",
+            "the STACK of multi-shot cakes in a single kit", 
+            "someone would think that there was a multiple bombs happening outside", 
+            "kids will love you but neighbors will HATE you", 
+            "260 shots", 
             "Cottage finales and Big backyard shows"
           ]
     },
@@ -775,6 +797,8 @@ const products = [
             "mid–high aerial (~30–70m)",
             "rich multicolour palette",
             "large shot count barrage format",
+            "sound of death boxes", 
+            "162 shots", 
             "full-show centerpiece, Canada or Victoria Day, major celebrations"
           ]
     },
