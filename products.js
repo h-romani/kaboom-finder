@@ -492,33 +492,41 @@ const products = [
         duration: "1 min",
         category: "Kit",
         price: "$279.99",
-        info: [
-            "Fast, intense strobing ground-level flashes with rapid blinking white light bursts",
-            "Pure white strobe effects with high-frequency flicker for strong visual impact",
-            "Very low-height ground effect (no aerial shots), focused on rhythmic flashing sequence",
-            "Typically 10–20 second burn style performance depending on ignition spread",
-            "Commonly used for backyard parties, driveway celebrations, and pre-firework warm-up displays"
-        ], 
-        // info: [
-        //     "multi-shot aerial firework cake designed for backyard celebrations",
-        //     "performance: medium-high intensity with fast-paced firing sequence and a strong finale burst",
-        //     "effects: coloured peony-style breaks, crackling star effects, and gold/colour strobe accents",
-        //     "colour: multi-colour palette (reds, greens, golds, blues depending on break layer)",
-        //     "shots: multi-shot barrage style (typically ~20–30+ shots depending on batch variant)",
-        //     "visual style: layered vertical lifts with rhythmic cadence leading into a simultaneous or rapid finale burst",
-        //     "celebration use: commonly used for Canada Day, Canada-themed parties, backyard summer events, and family fireworks nights in suburban or cottage settings"
-        // ]
+        "info": [
+            "multi-shot aerial cake",
+            "backyard fireworks display",
+            "fast-paced firing sequence",
+            "strong finale burst",
+            "peony-style colour breaks",
+            "crackling star effects",
+            "gold + strobe accents",
+            "multi-colour palette (red, green, gold, blue)",
+            "20–30+ shots (varies)",
+            "layered vertical lifts",
+            "rhythmic firing pattern",
+            "Canada Day, Victoria Night parties, cottage nights"
+          ]
           
     },
 
     {
         id: "701",
         title: "Blast off",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=7kZDYmA-tlw",
         image: "images/kit/blast-off.png",
         duration: "1 min",
         category: "Kit",
-        price: "$25.99"
+        price: "$25.99",
+        info: [
+            "quick-fire bursts",
+            "silver comet trails",
+            "glitter + crackle pops",
+            "low–mid aerial reach (~10–30m)",
+            "silver, white tones",
+            "small shot / tube-style bursts",
+            "backyard shows, usually an opener firework to a combination of other kits"
+        ]
+        
     },
 
     {
@@ -528,47 +536,93 @@ const products = [
         image: "images/kit/milky-way.png",
         duration: "1 min",
         category: "Kit",
-        price: "$24.99"
+        price: "$24.99", 
+        info:  [
+            "steady firing rhythm",
+            "starburst effects",
+            "glitter + comet tails",
+            "mid aerial height (~20–40m)",
+            "blue, green, silver mix",
+            "medium shot count cake",
+            "perfect for a quick and loud firework night"
+          ]
     },
 
     {
         id: "703",
         title: "Outer Space",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=8NXLbio4LKU",
         image: "images/kit/outer-space.png",
         duration: "1 min",
         category: "Kit",
-        price: "$99.99"
+        price: "$99.99", 
+        info: [
+            "fast barrage sequence",
+            "brocade + crackle breaks",
+            "strobe-style bursts",
+            "mid–high aerial (~30–50m)",
+            "gold, red, multicolour",
+            "higher shot count cake",
+            "cottage shows, finale firework"
+        ]
     },
 
     {
         id: "704",
         title: "Rocket Launcher",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=z3R4F8KyTWg",
         image: "images/kit/rocket-launcher.png",
         duration: "1 min",
         category: "Kit",
-        price: "$79.99"
+        price: "$79.99", 
+        info: [
+            "rocket-style aerial shots",
+            "fast lifts",
+            "gold comet tails, crackle breaks",
+            "high vertical reach (~40–80m)",
+            "red, green, gold flashes",
+            "single / multi rocket pack style",
+            "cottage skies,  similar to loud rocket-launching sounds, finale opener"
+          ]
     },
 
     {
         id: "705",
         title: "Shooting Stars",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=MChzmxR33-s",
         image: "images/kit/shooting-stars.png",
         duration: "1 min",
         category: "Kit",
-        price: "$39.99"
+        price: "$39.99", 
+        info: [
+            "smooth star comet effects",
+            "slow rhythmic burn",
+            "sparkling tail trails",
+            "mid aerial height (~20–50m)",
+            "blue, silver, multicolour shimmer",
+            "small shot count / fountain-cake hybrid",
+            "backyard shows, family fireworks nights"
+          ]
     },
 
     {
         id: "706",
         title: "Treasure Chest",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=w0LgL2qPbPI",
         image: "images/kit/treasure-chest.png",
         duration: "1 min",
         category: "Kit",
-        price: "$95.00"
+        price: "$95.00", 
+        info: [
+            "most popular choice of the $100 kits", 
+            "assorted multi-effect cake",
+            "mixed rapid + slow firing",
+            "crackling + peony bursts",
+            "mid–high aerial (~30–60m)",
+            "gold, red, green, strobe mix",
+            "higher shot count variety pack style",
+            "big backyard displays, the finales of the fireworks"
+          ]
     },
 
     {
@@ -578,77 +632,151 @@ const products = [
         image: "images/kit/ufo-attack.png",
         duration: "1 min",
         category: "Kit",
-        price: "$99.99"
+        price: "$99.99", 
+        info: [
+            "fast barrage aerial cake",
+            "whistling + strobe effects",
+            "flying saucer style crackle bursts",
+            "similar to alien saucer sounds", 
+            "mid–high aerial (~30–55m)",
+            "green, white, red flashes",
+            "multi-shot rapid sequence",
+            "night shows, themed parties, finale segment"
+          ]
     },
 
     {
         id: "708",
         title: "Meteor Shower",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=HHRClZP569g",
         image: "images/kit/meteor-shower.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$69.99"
+        price: "$69.99", 
+        info: [
+            "multi-shot barrage cake",
+            "rapid comet rain effect",
+            "silver + multicolour sparks",
+            "mid aerial height (~20–45m)",
+            "gold, red, green flickers",
+            "dense sky-filling pattern",
+            "Canada Day, backyard shows, mid-display fillers of the fireworks shows"
+          ]
     },
 
     {
         id: "709",
         title: "Air Raid",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=RERzxIa6xdQ",
         image: "images/kit/air-raid.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$139.99"
+        price: "$139.99", 
+        info : [
+            "fast-fire barrage sequence",
+            "loud crack + whistle mix",
+            "strobe + crackle bursts",
+            "mid–high aerial (~30–55m)",
+            "red, green, white flashes",
+            "high intensity shot clusters",
+            "large backyard shows, party finale segment"
+        ]
     },
 
     {
         id: "710",
         title: "Thunder & Lightning",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=r8cMMty88nk",
         image: "images/kit/thunder-lightning.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$169.99"
+        price: "$169.99",
+        info: [
+            "heavy crackle + flash bursts",
+            "loud thunder-like report effects",
+            "strobe white + gold flicker",
+            "mid–high aerial (~30–60m)",
+            "gold, white dominant palette",
+            "punchy timed firing rhythm",
+            "Nighttime finale shows"
+          ]
     },
 
     {
         id: "711",
         title: "Missile Tower",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=c95WrmUayOI",
         image: "images/kit/missile-tower.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$199.99"
+        price: "$199.99", 
+        info : [   
+            "vertical missile barrage cake",
+            "whistling launch sequence",
+            "silver comet tails",
+            "mid aerial (~25–45m)",
+            "red, green, gold pops",
+            "stacked rapid-fire tubes",
+            "backyard displays, opener or mid-show impact piece"
+        ]
     },
 
     {
         id: "712",
         title: "Missile Launch",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=cU4Om8lNOXU",
         image: "images/kit/missile-launch.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$299.99"
+        price: "$299.99", 
+        info: [
+            "rapid missile-style firing",
+            "whistling ascent bursts",
+            "silver tail comets",
+            "mid aerial (~25–40m)",
+            "red, green, white flashes",
+            "compact shot sequence (~20–30 shots typical)",
+            "Small–mid backyard shows and warm-up item"
+          ]
     },
 
     {
         id: "713",
         title: "Missile Attack",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=9MGM21HEH0c",
         image: "images/kit/missile-attack.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$529.99"
+        price: "$529.99", 
+        info: [
+            "fast barrage fire sequence",
+            "heavy sky-filling bursts",
+            "crackling + strobe breaks",
+            "mid–high aerial (~30–60m)",
+            "gold, red, green, silver mix",
+            "dense comet + peony layering",
+            "Cottage finales and Big backyard shows"
+          ]
     },
 
     {
         id: "714",
         title: "KBX Experience",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=9-j01wdOXMA",
         image: "images/kit/kbx-experience.webp",
         duration: "1 min",
         category: "Kit",
-        price: "$349.99"
+        price: "$349.99", 
+        info: [
+            "premium multi-effect show of all KBX cakes",
+            "the most popular choice of the $100+ kits",
+            "varied tempo firing (slow → fast)",
+            "peony, willow, strobe combinations",
+            "mid–high aerial (~30–70m)",
+            "rich multicolour palette",
+            "large shot count barrage format",
+            "full-show centerpiece, Canada or Victoria Day, major celebrations"
+          ]
     },
   ];
 
