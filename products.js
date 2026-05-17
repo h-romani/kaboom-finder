@@ -357,7 +357,12 @@ const products = [
         image: "images/kbx/kick-ass.png",
         duration: "20s",
         category: "KBX",
-        price: "$69.99"
+        price: "$69.99",
+        info: [
+            "Aggressive rapid-fire performance with loud crackling breaks and hard-hitting aerial bursts",
+            "Features vibrant red, gold, and mixed-colour effects with a strong finale sequence",
+            "Popular for backyard parties, birthday celebrations, and late-night cottage gatherings"
+          ]
     },
 
     {
@@ -367,9 +372,17 @@ const products = [
         image: "images/kbx/awesome.png",
         duration: "20s",
         category: "KBX",
-        price: "$79.99"
+        price: "$79.99",
+    
+        info: [
+          "Premium performance cake with wide aerial spread",
+          "Layered glittering effects and loud finale-style breaks",
+          "Produces vivid blue, green, red, and gold colour effects",
+          "Multi-shot sequence delivers extended firing duration",
+          "Often used during Canada Day events and large family gatherings"
+        ]
     },
-
+    
     {
         id: "602",
         title: "Epic",
@@ -377,9 +390,17 @@ const products = [
         image: "images/kbx/epic.png",
         duration: "20s",
         category: "KBX",
-        price: "$79.99"
+        price: "$79.99",
+    
+        info: [
+          "Heavy aerial performance with dense sky coverage",
+          "Combines crackles, peonies, glitter tails, and finale bursts",
+          "Rich mixed-colour display with bright gold and deep red tones",
+          "Large-volume multi-shot cake built for dramatic finales",
+          "Frequently chosen for outdoor celebrations and special events"
+        ]
     },
-
+    
     {
         id: "603",
         title: "OMG",
@@ -387,9 +408,17 @@ const products = [
         image: "images/kbx/omg.png",
         duration: "20s",
         category: "KBX",
-        price: "$59.99"
+        price: "$59.99",
+    
+        info: [
+          "Compact but energetic performance with quick aerial pacing",
+          "Features crackling breaks and shimmering sky effects",
+          "Bright mixed-colour bursts with silver and red highlights",
+          "Fast-firing multi-shot cake with strong visual impact",
+          "Popular for smaller backyard celebrations and casual parties"
+        ]
     },
-
+    
     {
         id: "604",
         title: "Wow",
@@ -397,7 +426,15 @@ const products = [
         image: "images/kbx/wow.png",
         duration: "20s",
         category: "KBX",
-        price: "$69.99"
+        price: "$69.99",
+    
+        info: [
+          "Balanced performance with smooth firing rhythm and strong aerial height",
+          "Includes glittering effects, loud reports, and colourful burst patterns",
+          "Produces vibrant gold, silver, red, and green sky effects",
+          "Multi-shot cake designed for medium-length performances",
+          "Commonly used for holiday gatherings, neighbourhood celebrations, and birthdays"
+        ]
     },
 
     {

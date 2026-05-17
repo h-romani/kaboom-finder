@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fireworks Showcase</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 </head>
 <body>
   <input type="text"  id="searchInput" placeholder="Search products or prices...">
@@ -13,11 +14,17 @@
     <div id="gallery" class="gallery"></div>
 
     <div id="videoModal" class="modal">
-      <span class="close" onclick="closeVideo()">&times;</span>
-      <video id="videoPlayer" controls>
-        <source src="" type="video/mp4">
-      </video>
+      <div class="modal-content">
+        <span class="close" onclick="closeVideo()">&times;</span>
+        <video id="videoPlayer" controls></video>
+        <div class="video-info">
+          <h3 id="infoTitle"></h3>
+          <ul id="infoList"></ul>
+        </div>
+    
+      </div>
     </div>
+
 
     <script src="products.js"></script>
     <script src="script.js"></script>

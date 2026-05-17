@@ -1,9 +1,22 @@
-function showVideo(videoSrc) {
-    var modal = document.getElementById('videoModal');
-    var videoPlayer = document.getElementById('videoPlayer');
-    videoPlayer.src = videoSrc;
-    modal.style.display = 'flex';
-    videoPlayer.play();
+function showVideo(item) {
+  const modal = document.getElementById('videoModal');
+  const videoPlayer = document.getElementById('videoPlayer');
+
+  videoPlayer.src = item.video;
+  videoPlayer.play();
+
+  document.getElementById("infoTitle").innerText = item.title;
+
+  const list = document.getElementById("infoList");
+
+  if (item.info && item.info.length) {
+    list.innerHTML = item.info.map(i => `<li>${i}</li>`).join("");
+    list.style.display = "block";
+  } else {
+    list.innerHTML = "";
+    list.style.display = "none";
+  }
+  modal.style.display = 'flex';
 }
 
 function closeVideo() {
@@ -12,6 +25,21 @@ function closeVideo() {
     modal.style.display = 'none';
     videoPlayer.pause();
     videoPlayer.src = '';
+}
+
+function showInfo(points) {
+  const modal = document.getElementById("infoModal");
+  const list = document.getElementById("infoList");
+
+  list.innerHTML = points
+    .map(point => `<li>${point}</li>`)
+    .join("");
+
+  modal.style.display = "flex";
+}
+
+function closeInfo() {
+  document.getElementById("infoModal").style.display = "none";
 }
 
 let activeCategory = "All";
@@ -82,12 +110,14 @@ function renderGallery(data) {
     const card = document.createElement("div");
     card.className = "card";
 
-    card.onclick = () => showVideo(item.video);
+    card.onclick = () => showVideo(item);
 
     card.innerHTML = `
     <img src="${item.image}" alt="${item.title}" >
     <p>${item.price}</p>
   `;
+
+
   
 
     gallery.appendChild(card);
