@@ -84,7 +84,7 @@
     color: #0000;
   }
   
-  .modal {
+  /* .modal {
     display: none;
     position: fixed;
     top: 0;
@@ -95,7 +95,7 @@
     justify-content: center;
     align-items: center;
     z-index: 999;
-  }
+  } */
   
   .modal video {
     width: 80%;
@@ -167,11 +167,6 @@
     padding: 15px;
   }
   
-  #videoPlayer {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
   .video-info {
     margin-top: 15px;
     color: white;
@@ -200,6 +195,71 @@
     margin-bottom: 12px;
     padding-left: 8px;
     border-left: 4px solid #ff3b3b;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #mediaContainer {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #videoPlayer {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  #youtubeLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .info-section {
+    width: 90%;
+    max-width: 900px;
+    margin-top: 15px;
+    color: white;
+  }
+
+  #infoList {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 5px;
+    list-style: none;
+  }
+
+  .youtube-btn {
+    width: 100%;
+    max-width: 320px;
+  
+    text-align: center;
+  
+    background: #ff0000;
+    color: white;
+  
+    padding: 14px 18px;
+  
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  
+    transition: 0.2s ease;
+  
+    word-break: break-word;
   }
   
   @media (max-width: 768px) {

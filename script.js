@@ -1,30 +1,60 @@
 function showVideo(item) {
   const modal = document.getElementById('videoModal');
   const videoPlayer = document.getElementById('videoPlayer');
-
-  videoPlayer.src = item.video;
-  videoPlayer.play();
+  const youtubeLink = document.getElementById('youtubeLink');
 
   document.getElementById("infoTitle").innerText = item.title;
 
   const list = document.getElementById("infoList");
 
+  // ALWAYS RENDER INFO (same position)
   if (item.info && item.info.length) {
     list.innerHTML = item.info.map(i => `<li>${i}</li>`).join("");
-    list.style.display = "block";
   } else {
     list.innerHTML = "";
-    list.style.display = "none";
   }
-  modal.style.display = 'flex';
+
+  // =========================
+  // MEDIA LOGIC ONLY (TOP AREA)
+  // =========================
+
+  if (item.youtube) {
+
+    videoPlayer.pause();
+    videoPlayer.removeAttribute("src");
+    videoPlayer.load();
+    videoPlayer.style.display = "none";
+
+    youtubeLink.innerHTML = `
+      <a href="${item.youtube}" target="_blank" class="youtube-btn">
+        ▶ Click for Full Demo
+      </a>
+    `;
+
+  } else {
+
+    youtubeLink.innerHTML = "";
+    videoPlayer.style.display = "block";
+
+    videoPlayer.src = item.video;
+    videoPlayer.play();
+  }
+
+  modal.style.display = "flex";
 }
 
 function closeVideo() {
-    var modal = document.getElementById('videoModal');
-    var videoPlayer = document.getElementById('videoPlayer');
-    modal.style.display = 'none';
-    videoPlayer.pause();
-    videoPlayer.src = '';
+  const modal = document.getElementById('videoModal');
+  const videoPlayer = document.getElementById('videoPlayer');
+  const youtubeLink = document.getElementById('youtubeLink');
+
+  modal.style.display = 'none';
+
+  videoPlayer.pause();
+  videoPlayer.removeAttribute('src');
+  videoPlayer.load();
+
+  youtubeLink.innerHTML = "";
 }
 
 function showInfo(points) {

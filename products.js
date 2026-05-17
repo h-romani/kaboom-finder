@@ -487,11 +487,28 @@ const products = [
     {
         id: "700",
         title: "Proud to be Canadian",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=Xa05UYwHTh8",
         image: "images/kit/proud-to-be-canadian.png",
         duration: "1 min",
         category: "Kit",
-        price: "$279.99"
+        price: "$279.99",
+        info: [
+            "Fast, intense strobing ground-level flashes with rapid blinking white light bursts",
+            "Pure white strobe effects with high-frequency flicker for strong visual impact",
+            "Very low-height ground effect (no aerial shots), focused on rhythmic flashing sequence",
+            "Typically 10–20 second burn style performance depending on ignition spread",
+            "Commonly used for backyard parties, driveway celebrations, and pre-firework warm-up displays"
+        ], 
+        // info: [
+        //     "multi-shot aerial firework cake designed for backyard celebrations",
+        //     "performance: medium-high intensity with fast-paced firing sequence and a strong finale burst",
+        //     "effects: coloured peony-style breaks, crackling star effects, and gold/colour strobe accents",
+        //     "colour: multi-colour palette (reds, greens, golds, blues depending on break layer)",
+        //     "shots: multi-shot barrage style (typically ~20–30+ shots depending on batch variant)",
+        //     "visual style: layered vertical lifts with rhythmic cadence leading into a simultaneous or rapid finale burst",
+        //     "celebration use: commonly used for Canada Day, Canada-themed parties, backyard summer events, and family fireworks nights in suburban or cottage settings"
+        // ]
+          
     },
 
     {
@@ -557,7 +574,7 @@ const products = [
     {
         id: "707",
         title: "UFO Attack",
-        video: "video/kit/sample.mp4",
+        youtube: "https://www.youtube.com/watch?v=UEXlMOV2gWw", 
         image: "images/kit/ufo-attack.png",
         duration: "1 min",
         category: "Kit",
